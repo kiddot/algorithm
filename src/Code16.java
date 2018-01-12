@@ -49,7 +49,7 @@ public class Code16 {
         // 用于记录当前处理的结点的
         ListNode curr = head;
         // 用于记录当前结点的前驱结点
-        // 前驱结点开始为null，因为了是反转后的最后一个结点的下一个结点，即null
+        // 前驱结点开始为null，因为是反转后的最后一个结点的下一个结点，即null
         ListNode prev = null;
         // 当前结点的下一个结点
         ListNode next;
