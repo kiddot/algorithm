@@ -1,4 +1,8 @@
 public class Code36 {
+    /**
+     * 在数组中的两个数字如果前面一个数字大于后面的数字，则这两个数字组成一个逆序对。输入一个数组，求出这个数组中的逆序对的总数
+     */
+
     public static int inversePairs(int[] data) {
         if (data == null || data.length < 1) {
             throw new IllegalArgumentException("Array arg should contain at least a value");
